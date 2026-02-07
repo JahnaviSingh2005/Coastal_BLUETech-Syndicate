@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+pollution.db
+
+# Uploads (user-uploaded files)
+uploads/
+
+# Logs
+*.log
+error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (too large for git)
+newdataset/
+
+# Model files (can be regenerated)
+models/*.pth
+models/*.pt

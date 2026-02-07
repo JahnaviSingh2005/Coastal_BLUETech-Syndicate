@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+pollution.db
+backend/pollution.db
+
+# Uploads
+backend/uploads/
+
+# Logs
+*.log
+error.log
+
+# Dataset (large files)
+backend/newdataset/
+
+# Model files
+backend/models/*.pth
+backend/models/*.pt
+
+# IDE
+.idea/
+.vscode/
